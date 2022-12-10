@@ -11,8 +11,8 @@ namespace API.Controllers
 {
     public class UsersController : BaseApiController
     {
-        private readonly Datacontext _context;
-        public UsersController(Datacontext context)
+        private readonly DataContext _context;
+        public UsersController(DataContext context)
         {
             _context = context;
         }
